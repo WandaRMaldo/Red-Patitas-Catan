@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    background-color: #ced6d8;
+}
+
+/*----CONTENEDOR----*/
+
+.contenedor {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/*----LOGO----*/
+
+.contenedor .encabezado {
+    background-color: #146E83;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/*----H1----*/
+
+.contenedor h2 {
+    text-align: center;
+    margin: 8px;
+    color: #115B6F;
+}
+
+/*----FORM----*/
+
+.contenedor .formulario {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+}
+
+.formulario div {
+    display: flex;
+    justify-content: center;
+}
+
+.formulario div label {
+    width: 100%;
+    margin: 5px;
+    font-size: 1.2rem;
+}
+
+.formulario div .form-text {
+    padding-top: 5px;
+}
+
+.formulario div label input[type=text],
+.formulario div label input[type=tel],
+.formulario div label input[type=email],
+.formulario div select {
+    font-size: 1.2rem;
+    padding-left: 10px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 2px #123968c5;
+}
+
+.formulario div label input[type=radio] {
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0 5px;
+
+}
+
+/*----BOTON----*/
+
+.formulario div button {
+    width: 8em;
+    height: 2em;
+    background-color: #115B6F;
+    border: none;
+    outline: none;
+    font-size: 1.2em;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comunidad IT - Inscripción a Cursos</title>
+    <!--Styles css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main class="contenedor">
+        <!--encabezado-->
+        <section class="encabezado">
+            <img src="img/comit.png" alt="comit">
+        </section>
+        <h2>Expandi tus conocimientos en nuestra comunidad</h2>
+        <!--seccion formulario-->
+        <form action="" class="formulario">
+            <div>
+                <label for="name">Nombre/s
+                    <input type="text" name="Nombre" placeholder="Nombre" required>
+                </label>
+                <label for="surname">Apellido/s
+                    <input type="text" name="Apellido" placeholder="Apellido" required>
+                </label>
+            </div>
+            <div>
+                <label for="email">Email
+                    <input type="email" name="Email" placeholder="email@gmail.com" required>
+                </label>
+                <label for="tel">Telefono
+                    <input type="tel" name="Telefono" placeholder="Telefono" required>
+                </label>
+            </div>
+            <div>
+                <label class="form-text" for="radio">
+                    ¿Trabaja?
+                    <input type="radio" name="trabaja" value="si" required>
+                    Si
+                    <input type="radio" name="trabaja" value="no">
+                    No
+                </label>
+                <label for="text">
+                    <input type="text" name="text" id="" placeholder="Lugar de trabajo" required>
+                </label>
+            </div>
+            <div>
+                <label class="form-text" for="radio">
+                    ¿Estudia?
+                    <input type="radio" name="estudia" value="si" required>
+                    Si
+                    <input type="radio" name="estudia" value="no">
+                    No
+                </label>
+                <label for="text">
+                    <input type="text" name="text" placeholder="Lugar de estudio" required>
+                </label>
+            </div>
+            <div>
+                <label for="course">Selecciona el curso:
+                    <select name="curso" id="curso" required>
+                        <option value="react">REACT</option>
+                        <option value="mobile">MOBILE</option>
+                        <option value="net">.NET CORE</option>
+                        <option value="php">PHP</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <label for="comision">Selecciona la comisión:
+                    <select name="comision" id="comision" required>
+                        <option value="mar-juev">Martes y Jueves - 9hrs a 13 hrs</option>
+                        <option value="lun-mar-juev">Lunes, Martes y Jueves - 17 hrs a 21 hrs</option>
+                        <option value="lun-vie">Lunes y Viernes - 17 hrs a 21 hrs</option>
+                        <option value="mar-vie">Martes y Viernes - 16 hrs a 22 hrs</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <button type="submit">Inscribirse</button>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
